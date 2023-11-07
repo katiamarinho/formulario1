@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</head>
+<style>
+ 
+ body{
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ #mapa{
+  text-align:left; 
+  font-weight: bold;
+  
+ 
+}
+form{
+  padding: 150px;
+}
+h2{
+  text-align: center;
+}
+#ladolado{
+  display: flex; 
+  margin-left: 50px;
+margin-right: 50px;
+ }
+#espacamento{
+   margin-top: 55px;
+   text-align: justify;
+}
+.alinhamento{
+  margin: 10px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+</style>
+
+<body>
+    
+        <h2>Envie-nos uma mensagem e diga como podemos te ajudar:
+        </h2>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nome Completo</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">E-mail</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        
+        <div class="col-md-12">
+          <label for="inputState" class="form-label">Assunto</label>
+          <select id="inputState" class="form-select">
+            <option selected>Escolha o assunto</option><br>
+            <option>Crítica</option>
+            <option>Elogio</option>
+            <option >Sugestões</option>
+            <option >Informações</option>
+          </select>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Mensagem</label>
+          </div>
+        </div>
+        
+        
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form><br>
+
+<div id="ladolado">
+
+     
+        <div class="alinhamento">
+        <h1 id="mapa">Saiba como chegar</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.247586199177!2d-46.1967474!3d-23.5235959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdd9dd8b23d097%3A0x2f549f01ae16e3d3!2sNise%20-%20N%C3%BAcleo%20em%20Sa%C3%BAde%20Mental!5e0!3m2!1spt-BR!2sbr!4v1698534761171!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       
+       <div class="alinhamento" id="espacamento">
+       <h3>Entre em contato conosco.<br>Envie suas sugestões, elogios ou criticas.
+       </h3>
+       <h1> (11) 94387-4081</h1>
+       <p>Horário de Funcionamento Financeiro:</p>
+       <p>Segunda a Sexta-feira</p>
+       <p>Das 8:00 às 17:00 horas</p>
+       <h3>Rua Princesa Isabel de Bragança, 230</h3>
+       <h3>Centro-Mogi das Cruzes - SP</h3>
+       </div>
+  
+</div>
+      
+        
+         
+
+
+</body>
+   
+</html>
